@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="halium-8.1-WIP"
+          fetch="https://github.com/Linux-On-Whyred"
+          revision="halium-8.1-WIP" />
+          
+  <remote name="halium-8.1"
+          fetch="https://github.com/Linux-On-Whyred"
+          revision="halium-8.1" />
+          
+  <remote name="halium-8.1-Beta"
+          fetch="https://github.com/Linux-On-Whyred"
+          revision="halium-8.1-Beta" />
+          
+  <remote name="halium-9.0"
+          fetch="https://github.com/Linux-On-Whyred"
+          revision="halium-9.0" />
+          
+  <!-- Halium device For Whyred -->
+  <project path="device/xiaomi/whyred" name="Linux_device_xiaomi_whyred" remote="halium-8.1-WIP" />
+
+  <!-- Halium vendor For Whyred -->
+  <project path="vendor/xiaomi/whyred" name="Linux_vendor_xiaomi_whyred" remote="halium-8.1-WIP" />
+  
+  <!-- Halium kernel For Whyred -->
+  <project path="kernel/xiaomi/whyred" name="Linux_kernel_xiaomi_whyred" remote="halium-9.0" />
+  
+</manifest>
